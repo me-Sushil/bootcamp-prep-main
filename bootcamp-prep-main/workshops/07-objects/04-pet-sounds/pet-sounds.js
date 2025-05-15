@@ -38,3 +38,19 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+const petSounds=(animal, country)=>{
+  for (let i = 0; i < animalNoises.length; i++) {
+
+    let animalObject = animalNoises[i];
+
+    if (animal in animalObject) {
+
+      let countrySounds = animalObject[animal];
+
+      let sound = countrySounds[country];
+
+      animal = animal[0].toUpperCase() + animal.slice(1) + 's';
+      return animal + ' in ' + country + ' say ' + sound;
+    }
+  }
+}
