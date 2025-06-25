@@ -7,6 +7,7 @@ let ticTacToe = {
         if(this.board[y][x] === null){
             this.board[y][x] = character;
         }
+        console.log(this.board);
         return this.board;
     },
     clear : function (){

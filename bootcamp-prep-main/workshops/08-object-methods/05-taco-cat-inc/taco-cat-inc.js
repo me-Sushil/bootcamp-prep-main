@@ -23,3 +23,14 @@ let tacoCatInc = {
 };
 
 // YOUR CODE BELOW
+
+let catstocas = {
+  currentInventory : function (){
+  },
+  sale : function(order){
+
+  },
+}
+let order = {
+  price : price,
+}
