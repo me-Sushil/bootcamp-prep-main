@@ -1,13 +1,10 @@
 ### Clone Machine
 
-Write a function `cloneMachine`, that, given an animal (represented as an object),
-returns a clone of the original animal.
+Write a function `cloneMachine`, that, given an animal (represented as an object), returns a clone of the original animal.
 
-The name of the clone should be the name of its parent, concatenated with the word
-'Clone'.
+The name of the clone should be the name of its parent, concatenated with the word 'Clone'.
 
-`cloneMachine` should also push the name of the clone to the parent's offspring
-array.
+`cloneMachine` should also push the name of the clone to the parent's offspring array.
 
 ```javascript
 let dolly = {
