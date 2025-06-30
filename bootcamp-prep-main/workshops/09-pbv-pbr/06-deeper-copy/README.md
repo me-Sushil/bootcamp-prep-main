@@ -1,7 +1,6 @@
 ### Deeper Copy
 
-Write a function, deeperCopy, that, unlike .slice, will deeply copy a two-
-dimensional array.
+Write a function, deeperCopy, that, unlike .slice, will deeply copy a two-dimensional array.
 
 ```javascript
 let myArray = [1, [2, 3]];
