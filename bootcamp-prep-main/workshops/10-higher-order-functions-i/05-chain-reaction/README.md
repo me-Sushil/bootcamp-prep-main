@@ -1,12 +1,7 @@
 ### Chain Reaction
-
-Define a function, 'chainReaction', that takes a starting value and an array of
-functions.
-
+Define a function, 'chainReaction', that takes a starting value and an array of functions.
 'chainReaction' should pass the starting value into the first function in the array.
-It should pass the value returned by the first function into the second function,
-and so on until every function in the array was called.
-
+It should pass the value returned by the first function into the second function, and so on until every function in the array was called.
 'chainReaction' should return the final value returned by the final function in
 the array.
 
