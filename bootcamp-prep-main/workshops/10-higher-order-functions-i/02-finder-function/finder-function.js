@@ -1,21 +1,11 @@
-// YOUR CODE BELOW
-function finderFunction(array, callback) {
+function finderFunction(arr, callback) {
+  for (let i = 0; i < arr.length; ++i) {
+    let element = arr[i];
 
-  // loop through the given array
-  for (let i = 0; i < array.length; i++) {
-    let element = array[i];
-
-    // run the callback, passing in the current element
-    let foundIt = callback(element);
-
-    // if the callback returned true...
-    if (foundIt) {
-
-      // ...return the current index
-      return i;
+    let foundit = callback(element);
+    if (foundit) {
+      return true;
     }
+    return -1;
   }
-
-  // if we never found it, return -1
-  return -1;
 }
