@@ -2,7 +2,8 @@
 function stringify(callback){
 
     return function(){
-        return `callback()`;
+        // return String(callback());
+        return  `callback()`;
     }
 
 
