@@ -1,15 +1,7 @@
 ### Cache Savings
+Caching is used in software engineering to temporarily store the result of an "expensive" operation (takes a lot of time or memory). If that result is needed again in the near future, it can be retrieved from the cache instead of calculating it again.
 
-Caching is used in software engineering to temporarily store the result of an
-"expensive" operation (takes a lot of time or memory). If that result is needed
-again in the near future, it can be retrieved from the cache instead of calculating
-it again.
-
-Write a function, cacheSavings, that takes a callback and returns a new function
-that takes one argument. When the new function is called for the first time,
-it should call the callback with the argument and save the result of the function
-call. If the new function is called again with the same argument, the new
-function should retrieve the stored value instead of calling the callback again!
+Write a function, cacheSavings, that takes a callback and returns a new function that takes one argument. When the new function is called for the first time, it should call the callback with the argument and save the result of the function call. If the new function is called again with the same argument, the new function should retrieve the stored value instead of calling the callback again!
 
 ```javascript
 function adds10(num) {
