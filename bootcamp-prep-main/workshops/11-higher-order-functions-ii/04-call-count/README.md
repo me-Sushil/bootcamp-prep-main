@@ -1,7 +1,5 @@
 ### Call Count
-
-Write a function, callCount, that returns a new function. The new function
-should return the number of times its been called.
+Write a function, callCount, that returns a new function. The new function should return the number of times its been called.
 
 ```javascript
 let newFunction1 = callCount();
