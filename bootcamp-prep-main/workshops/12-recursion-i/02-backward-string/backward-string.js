@@ -1,4 +1,3 @@
-// YOUR CODE BELOW
 const backwardString = (aStr)=>{
    if(aStr.length === 1){
     console.log(aStr);
@@ -8,3 +7,4 @@ const backwardString = (aStr)=>{
     backwardString(aStr.slice(0, -1));
    }
 }
+console.log(backwardString('Sushil'));
