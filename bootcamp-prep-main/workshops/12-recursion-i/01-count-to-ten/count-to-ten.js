@@ -7,3 +7,4 @@ const countToTen = (num) =>{
         countToTen(num + 1);
     }
 }
+
