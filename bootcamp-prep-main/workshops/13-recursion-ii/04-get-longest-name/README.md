@@ -1,7 +1,8 @@
 ### Get Longest Name
 
-Write a function, getLongestName, that takes an object. The object represents
-a family tree. Return the longest name in the family.
+Write a function, getLongestName, that takes an object. 
+The object represents a family tree. 
+Return the longest name in the family.
 
 
 ```javascript
